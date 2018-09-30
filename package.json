@@ -1,0 +1,27 @@
+{
+  "name": "mithrilpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mithril": "^1.1.6",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyciamRiley/mithrilpractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlyciamRiley/mithrilpractice/issues"
+  },
+  "homepage": "https://github.com/AlyciamRiley/mithrilpractice#readme"
+}
